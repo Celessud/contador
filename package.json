@@ -1,0 +1,17 @@
+{
+  "name": "contador",
+  "version": "1.0.0",
+  "description": "Nuevo proyecto de node",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/index.js"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "js"
+  ],
+  "author": "Celeste",
+  "license": "MIT"
+}
