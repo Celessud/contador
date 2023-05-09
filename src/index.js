@@ -1,13 +1,11 @@
-import Contador from "./Entidades/contador.js";
+import Toll from "./Entidades/toll.js";
 
-const contador = new Contador();
+const toll = new Toll();
 
-console.log(contador.toString());
+console.log(toll.isOpen());
 
-console.log(contador.valor());
+toll.close();
+console.log(toll.isOpen());
 
-contador.incrementar();
-console.log(contador.valor());
-
-contador.incrementarCon(11);
-console.log(contador.valor());
+toll.open();
+console.log(toll.isOpen());
